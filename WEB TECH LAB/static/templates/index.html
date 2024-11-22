@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Online Bookstore</h1>
+        <nav>
+            <ul>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login" id="login-link">Login</a></li>
+                <li><a href="/logout" id="logout-link" style="display: none;">Logout</a></li>
+                <li><a href="#departments">Departments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Your One-Stop Shop for Books</h2>
+            <p>Find books across various genres, from fiction to science, and more!</p>
+        </section>
+        <div id="book-list">
+            <!-- Books will be dynamically loaded here -->
+        </div>
+        <section id="departments">
+            <h2>Departments</h2>
+            <div class="department-list">
+                <div class="department">
+                    <h3>Fiction</h3>
+                    <p>Explore an array of novels and stories that ignite the imagination.</p>
+                </div>
+                <div class="department">
+                    <h3>Science</h3>
+                    <p>Dive into books on physics, chemistry, biology, and more.</p>
+                </div>
+                <div class="department">
+                    <h3>Technology</h3>
+                    <p>Stay updated with the latest in programming, AI, and technology trends.</p>
+                </div>
+                <div class="department">
+                    <h3>History</h3>
+                    <p>Learn about past events and historical figures that shaped the world.</p>
+                </div>
+                <div class="department">
+                    <h3>Children's Books</h3>
+                    <p>A selection of books to delight and educate young minds.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Online Bookstore. All rights reserved.</p>
+    </footer>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
