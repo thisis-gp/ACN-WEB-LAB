@@ -18,6 +18,14 @@ This repository contains the lab experiments conducted as part of the **Web Tech
       - Responsive design for different devices
 
 ### Advanced Computer Networks Experiments
+1. **VLAN Configuration**
+
+2. **Firewall Configuration**
+
+3. **Router Configuration**
+
+4. **Network Topologies**
+
 
 ## Contributing
 
